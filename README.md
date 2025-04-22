@@ -135,7 +135,9 @@ def find_book(book: Book):
 ```
 
 ## Como inicar
-- Exsite um arquivo requirements
-- Precisa instalar as dependências necessárias que o projeto exige
+- Existe um arquivo requirements.txt
+- Após estar na raiz do projeto, crie seu ambiente virtual usando ***python3 -m venv <nomesugestivo>***
+- Aplica o source ***source nomesugestivo/bin/activate****
+- Precisa instalar as dependências necessárias que o projeto exige.
 - Pode utilizar o comando ***pip ou pip3 install -r requirements.txt***
-- Após isto, todas as dependências do projeto estarão instaladas e poderá iniciar o projeto usando o uvicorn
+- Após isto, todas as dependências do projeto estarão instaladas e poderá iniciar o projeto usando o uvicorn 
